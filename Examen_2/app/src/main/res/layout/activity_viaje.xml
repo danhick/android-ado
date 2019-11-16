@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".viaje">
+
+    <TextView
+        android:id="@+id/tvtitutlo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="23dp"
+        android:text="ADO" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="165dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvorigen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="20dp"
+            android:text="Origen" />
+
+        <RadioGroup
+            android:layout_width="121dp"
+            android:layout_height="100dp"
+            android:id="@+id/ida">
+
+            <RadioButton
+                android:id="@+id/rbtizimin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tizimin" />
+
+            <RadioButton
+                android:id="@+id/rbvalla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Valladolid" />
+
+            <RadioButton
+                android:id="@+id/rbizamal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Izamal" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="123dp"
+        android:layout_height="142dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Destino"
+            android:layout_gravity="center"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vuelta">
+
+            <RadioButton
+                android:id="@+id/rbtizimin2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tizimin" />
+
+            <RadioButton
+                android:id="@+id/rbvalla2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Valladolid" />
+
+            <RadioButton
+                android:id="@+id/rbizamal2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Izamal" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/cbredondo"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Redondo" />
+
+        <Button
+            android:id="@+id/btnormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="Normal" />
+
+        <Button
+            android:id="@+id/btvip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="VIP" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

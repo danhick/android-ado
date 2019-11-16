@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".tickets">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ticket" />
+
+    <LinearLayout
+        android:layout_width="293dp"
+        android:layout_height="558dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/origen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Origen:" />
+
+        <EditText
+            android:id="@+id/origen1"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/destino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Destino:" />
+
+
+        <EditText
+            android:id="@+id/destino1"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/horarioida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Horario ida:" />
+
+        <EditText
+            android:id="@+id/horarioida1"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="textPersonName"
+            android:text="" />
+        <TextView
+            android:id="@+id/redondo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:text="El viaje es Redondo" />
+
+        <TextView
+            android:id="@+id/horariovuelta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Horario vuelta:" />
+
+        <EditText
+            android:id="@+id/horariovuelta1"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:enabled="false"/>
+
+        <TextView
+            android:id="@+id/asiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asientos:" />
+
+        <EditText
+            android:id="@+id/asiento1"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="textPersonName"
+            android:text="" />
+        <TextView
+            android:id="@+id/subtotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subtotal:" />
+
+        <TextView
+            android:id="@+id/tvsubtotal"
+            android:layout_width="19dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <TextView
+            android:id="@+id/iva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IVA:" />
+        <TextView
+            android:id="@+id/iva1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total:" />
+        <TextView
+            android:id="@+id/total1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btpagar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pagar" />
+
+        <Button
+            android:id="@+id/btimprimir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Imprimir" />
+    </LinearLayout>
+</LinearLayout>
